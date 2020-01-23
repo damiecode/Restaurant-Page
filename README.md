@@ -36,7 +36,7 @@ git clone https://github.com/damiecode/Restaurant-Page.git
 👤 **Damilola Ale**
 
 - Github: [@damiecode](https://github.com/damiecode)
-- linkedin: [@damiecode](https://linkedin.com/in/damiecode/)
+- linkedin: [Damilola Ale](https://linkedin.com/in/damiecode/)
 
 ## Show your support
 
