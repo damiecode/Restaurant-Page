@@ -1,0 +1,24 @@
+{
+  "name": "Restaurant-Page",
+  "version": "1.0.0",
+  "description": "> ​  we are going to be using only JavaScript to generate the entire contents of a restaurant page!.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damiecode/Restaurant-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damiecode/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/damiecode/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
