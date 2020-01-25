@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/damiecode/Restaurant-Page#readme",
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   }
