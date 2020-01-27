@@ -1,18 +1,9 @@
-/*
-
-Template 2076 Zentro
-
-http://www.tooplate.com/view/2076-zentro
-
-*/
-
-body
-	{
-		background: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    position: relative;
-	}
+body {
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  position: relative;
+}
 
 .heading {
   font-size: 22px;
@@ -49,55 +40,6 @@ hr {
   background-attachment: fixed !important;
   background-size: cover !important;
 }
-
-/* preloader section */
-.preloader  {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 99999;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-flow: row nowrap;
-            -ms-flex-flow: row nowrap;
-                flex-flow: row nowrap;
-        -webkit-justify-content: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-align-items: center;
-            -ms-flex-align: center;
-                align-items: center;
-        background: none repeat scroll 0 0 #fff;
-    }
-.sk-spinner-pulse {
-  width: 40px;
-  height: 40px;
-  background-color: #F6D76B;
-  border-radius: 100%;
-  -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
-          animation: sk-pulseScaleOut 1s infinite ease-in-out; }
-
-@-webkit-keyframes sk-pulseScaleOut {
-  0% {
-    -webkit-transform: scale(0);
-            transform: scale(0); }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 0; } }
-
-@keyframes sk-pulseScaleOut {
-  0% {
-    -webkit-transform: scale(0);
-            transform: scale(0); }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 0; } }
-
 
 /* start navigation */
 .navbar-default {
