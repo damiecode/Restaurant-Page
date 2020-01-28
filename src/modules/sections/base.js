@@ -15,9 +15,9 @@ const base = () => {
   brand.innerText = 'CATERLY';
 
   const navDiv = document.createElement('div');
-  navDiv.classList.add('collapse' ,'navbar-collapse');
+  navDiv.classList.add('collapse', 'navbar-collapse');
   const list = document.createElement('ul');
-  list.classList.add('nav' , 'navbar-nav' ,'navbar-right');
+  list.classList.add('nav', 'navbar-nav', 'navbar-right');
 
   const toggle = ['', '', ''];
   toggle.forEach(() => {

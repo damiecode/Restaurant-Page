@@ -1,32 +1,32 @@
 const contact = () => {
-  const section = document.createElement('section')
-  section.id = 'contact'
-  section.classList.add('parallax-section')
-  const container = document.createElement('div')
-  container.classList.add('container')
-  const row = document.createElement('div')
-  row.classList.add('row')
-  const div1 = document.createElement('div')
-  div1.classList.add('col-md-offset-1', 'col-md-10', 'col-sm-12', 'text-center')
-  const heading = document.createElement('h1')
-  heading.classList.add('heading')
-  heading.innerText = 'Contact Us'
-  const hr = document.createElement('hr')
-  div1.appendChild(heading)
-  div1.appendChild(hr)
+  const section = document.createElement('section');
+  section.id = 'contact';
+  section.classList.add('parallax-section');
+  const container = document.createElement('div');
+  container.classList.add('container');
+  const row = document.createElement('div');
+  row.classList.add('row');
+  const div1 = document.createElement('div');
+  div1.classList.add('col-md-offset-1', 'col-md-10', 'col-sm-12', 'text-center');
+  const heading = document.createElement('h1');
+  heading.classList.add('heading');
+  heading.innerText = 'Contact Us';
+  const hr = document.createElement('hr');
+  div1.appendChild(heading);
+  div1.appendChild(hr);
 
-  const div2 = document.createElement('div')
-  div2.classList.add('col-md-offset-1', 'col-md-10', 'col-sm-12', 'wow', 'fadeIn')
-  div2.setAttribute('data-wow-delay', '0.9s')
-  const form = document.createElement('form')
+  const div2 = document.createElement('div');
+  div2.classList.add('col-md-offset-1', 'col-md-10', 'col-sm-12', 'wow', 'fadeIn');
+  div2.setAttribute('data-wow-delay', '0.9s');
+  const form = document.createElement('form');
 
-  const nameDiv = document.createElement('div')
-  nameDiv.classList.add('col-md-6', 'col-sm-6')
+  const nameDiv = document.createElement('div');
+  nameDiv.classList.add('col-md-6', 'col-sm-6');
 
   const inputName = document.createElement('input');
-  inputName.classList.add('form-control')
+  inputName.classList.add('form-control');
   inputName.setAttribute('type', 'text');
-  inputName.id = 'name'
+  inputName.id = 'name';
   inputName.setAttribute('placeholder', 'Name');
 
   nameDiv.appendChild(inputName);
