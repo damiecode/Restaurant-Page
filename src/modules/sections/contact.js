@@ -67,7 +67,9 @@ const contact = () => {
   form.append(nameDiv, emailDiv, messageDiv, buttonDiv);
 
   const div3 = document.createElement('div')
-  div3.classList.add('col-md-2','col-sm-1')
+  div3.classList.add('col-md-2', 'col-sm-1')
+  
+  
 
   div2.appendChild(form)
   div1.appendChild(div2)
