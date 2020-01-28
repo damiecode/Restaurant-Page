@@ -15,16 +15,16 @@ const base = () => {
   brand.innerText = 'CATERLY';
 
   const navDiv = document.createElement('div');
-  navDiv.classList.add('collapse' , 'navbar-collapse');
+  navDiv.classList.add('collapse' ,'navbar-collapse');
   const list = document.createElement('ul');
-  list.classList.add('nav' , 'navbar-nav' , 'navbar-right');
+  list.classList.add('nav' , 'navbar-nav' ,'navbar-right');
 
   const toggle = ['', '', ''];
-  toggle.forEach((el) => {
-    let span = document.createElement('span');
-    span.classList.add('icon' , 'icon-bar');
+  toggle.forEach(() => {
+    const span = document.createElement('span');
+    span.classList.add('icon', 'icon-bar');
     button.appendChild(span);
-  })
+  });
 
   const navArray = ['HOME', 'FOOD GALLERY', 'SPECIAL MENU', 'CONTACT'];
   const anchorArray = [];
@@ -35,7 +35,7 @@ const base = () => {
     if (i !== 0) a.setAttribute('href', `#page${i}`);
     a.classList.add('smoothScroll');
     a.innerHTML = navArray[i];
-    li.appendChild(a)
+    li.appendChild(a);
     anchorArray.push(li);
   }
 

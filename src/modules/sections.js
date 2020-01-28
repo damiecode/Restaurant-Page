@@ -11,7 +11,7 @@ const sections = (() => {
   const getSection3 = () => gallery();
   const getSection4 = () => menu();
   const getSection5 = () => contact();
-  const getSection6 = () => footer(); 
+  const getSection6 = () => footer();
 
   return {
     getSection1,
