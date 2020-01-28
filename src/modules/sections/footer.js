@@ -1,19 +1,32 @@
 const footer = () => {
   const section = document.createElement('footer');
-  section.classList.add('parallax-section')
-  const container1 = document.createElement('div')
-  container1.classList.add('container')
-  const row1 = document.createElement('div')
-  row1.classList.add('row')
-  const footerdiv = document.createElement('div')
-  footerdiv.classList.add('col-md-4', 'col-sm-4', 'wow', 'fadeInUp')
-  footerdiv.setAttribute('data-wow-delay', '0.6s')
-  const footerheading = document.createElement('h2')
-  footerheading.classList.add('heading')
-  footerheading.innerText = 'Contact Info.'
+  section.classList.add('parallax-section');
+  const container = document.createElement('div')
+  container.classList.add('container');
+  const row = document.createElement('div');
+  row.classList.add('row');
+  const div = document.createElement('div');
+  div.classList.add('col-md-4', 'col-sm-4', 'wow', 'fadeInUp');
+  div.setAttribute('data-wow-delay', '0.6s');
+  const heading = document.createElement('h2');
+  heading.classList.add('heading');
+  heading.innerText = 'Contact Info.'
 
-  footerdiv.appendChild(footerheading)
-  row1.appendChild(footerdiv)
-  container1.appendChild(row1)
-  section.appendChild(container1)
-}
+  const phoneDiv = document.createElement('div');
+  phoneDiv.classList.add('ph');
+  const ph = document.createElement('p');
+  ph.innerHTML = `
+  <p><i class="fa fa-phone"></i> Phone</p>
+            <h4>090-080-0760</h4>
+  `
+  phoneDiv.appendChild(ph);
+
+  div.appendChild(phoneDiv);
+  row.appendChild(div);
+  container.appendChild(row);
+  section.appendChild(container);
+
+  return section;
+};
+
+export default footer;

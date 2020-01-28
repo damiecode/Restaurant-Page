@@ -1,29 +1,29 @@
 const base = () => {
-  const header = document.createElement('section')
-  header.classList.add('navbar', 'navbar-default', 'navbar-fixed-top')
-  const container = document.createElement('div')
-  container.classList.add('container')
-  const navbarHeader = document.createElement('div')
-  navbarHeader.classList.add('navbar-header')
-  const button = document.createElement('button')
-  button.classList.add('navbar-toggle')
-  button.setAttribute('data-toggle', 'collapse')
+  const header = document.createElement('section');
+  header.classList.add('navbar', 'navbar-default', 'navbar-fixed-top');
+  const container = document.createElement('div');
+  container.classList.add('container');
+  const navbarHeader = document.createElement('div');
+  navbarHeader.classList.add('navbar-header');
+  const button = document.createElement('button');
+  button.classList.add('navbar-toggle');
+  button.setAttribute('data-toggle', 'collapse');
   // $('[data-toggle="collapse"]').collapse()
   button.dataset.target = '.navbar-collapse'
-  const brand = document.createElement('a')
-  brand.classList.add('navbar-brand')
+  const brand = document.createElement('a');
+  brand.classList.add('navbar-brand');
   brand.innerText = 'CATERLY'
 
-  const navDiv = document.createElement('div')
-  navDiv.classList.add('collapse','navbar-collapse')
-  const list = document.createElement('ul')
-  list.classList.add('nav','navbar-nav','navbar-right')
+  const navDiv = document.createElement('div');
+  navDiv.classList.add('collapse', 'navbar-collapse');
+  const list = document.createElement('ul');
+  list.classList.add('nav', 'navbar-nav', 'navbar-right');
 
-  const toggle = ['', '', '']
+  const toggle = ['', '', ''];
   toggle.forEach((el) => {
-    let span = document.createElement('span')
-    span.classList.add('icon', 'icon-bar')
-    button.appendChild(span)
+    let span = document.createElement('span');
+    span.classList.add('icon', 'icon-bar');
+    button.appendChild(span);
   })
 
   const navArray = ['HOME', 'FOOD GALLERY', 'SPECIAL MENU', 'CONTACT'];
@@ -45,11 +45,11 @@ const base = () => {
 
   container.appendChild(navbarHeader);
 
-  container.appendChild(navDiv)
+  container.appendChild(navDiv);
 
-  list.append(...anchorArray)
+  list.append(...anchorArray);
 
-  navDiv.appendChild(list)
+  navDiv.appendChild(list);
 
   header.appendChild(container);
 

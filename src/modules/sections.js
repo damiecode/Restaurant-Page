@@ -19,7 +19,7 @@ const sections = (() => {
     getSection3,
     getSection4,
     getSection5,
-    getSection6
+    getSection6,
   };
 })();
 

@@ -9,11 +9,11 @@ const gallery = () => {
   const div1 = document.createElement('div')
   div1.classList.add('col-md-offset-2', 'col-md-8', 'col-sm-12', 'text-center')
   const heading = document.createElement('h1')
-  heading.classList.add('heading')
-  heading.innerText = 'Food Gallery'
-  const hr = document.createElement('hr')
-  div1.appendChild(heading)
-  div1.appendChild(hr)
+	heading.classList.add('heading');
+	heading.innerText = 'Food Gallery';
+	const hr = document.createElement('hr');
+	div1.appendChild(heading);
+	div1.appendChild(hr);
 
   const li = document.createElement('div');
   li.innerHTML = `
@@ -49,10 +49,10 @@ const gallery = () => {
 				</div>`;
 
 
-  row.appendChild(div1)
+	row.appendChild(div1);
   row.append(li);
-  container.appendChild(row)
-  section.appendChild(container)
+	container.appendChild(row);
+	section.appendChild(container);
 
   return section;
 }

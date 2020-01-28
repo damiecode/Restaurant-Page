@@ -3,13 +3,13 @@ const home = () => {
   parallax.classList.add('parallax-section');
   parallax.id = 'home';
 
-  const container2 = document.createElement('div')
-  container2.classList.add('container')
+  const container2 = document.createElement('div');
+  container2.classList.add('container');
 
-  const row = document.createElement('div')
-  row.classList.add('row')
+  const row = document.createElement('div');
+  row.classList.add('row');
 
-  const column = document.createElement('div')
+  const column = document.createElement('div');
   column.classList.add('col-md-12', 'col-sm-12')
 
   const h1 = document.createElement('h1');
@@ -18,8 +18,8 @@ const home = () => {
   const h2 = document.createElement('h2');
   h2.innerText = 'CLEAN & SIMPLE DESIGN';
 
-  const link = document.createElement('a')
-  link.classList.add('smoothScroll', 'btn', 'btn-default')
+  const link = document.createElement('a');
+  link.classList.add('smoothScroll', 'btn', 'btn-default');
   link.innerText = 'LEARN MORE'
   link.id = '#gallery'
   link.href ='#gallery' 
