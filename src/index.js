@@ -8,4 +8,5 @@ rootContainer.append(
   sections.getSection2(),
   sections.getSection3(),
   sections.getSection4(),
+  sections.getSection5()
 );
