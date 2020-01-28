@@ -6,4 +6,6 @@ const rootContainer = document.getElementById('content');
 rootContainer.append(
   sections.getSection1(),
   sections.getSection2(),
+  sections.getSection3(),
+  sections.getSection4(),
 );
