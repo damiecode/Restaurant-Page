@@ -9,20 +9,20 @@ const base = () => {
   button.classList.add('navbar-toggle');
   button.setAttribute('data-toggle', 'collapse');
   // $('[data-toggle="collapse"]').collapse()
-  button.dataset.target = '.navbar-collapse'
+  button.dataset.target = '.navbar-collapse';
   const brand = document.createElement('a');
   brand.classList.add('navbar-brand');
-  brand.innerText = 'CATERLY'
+  brand.innerText = 'CATERLY';
 
   const navDiv = document.createElement('div');
-  navDiv.classList.add('collapse', 'navbar-collapse');
+  navDiv.classList.add('collapse' , 'navbar-collapse');
   const list = document.createElement('ul');
-  list.classList.add('nav', 'navbar-nav', 'navbar-right');
+  list.classList.add('nav' , 'navbar-nav' , 'navbar-right');
 
   const toggle = ['', '', ''];
   toggle.forEach((el) => {
     let span = document.createElement('span');
-    span.classList.add('icon', 'icon-bar');
+    span.classList.add('icon' , 'icon-bar');
     button.appendChild(span);
   })
 
@@ -41,7 +41,7 @@ const base = () => {
 
   navbarHeader.appendChild(button);
 
-  navbarHeader.appendChild(brand)
+  navbarHeader.appendChild(brand);
 
   container.appendChild(navbarHeader);
 
