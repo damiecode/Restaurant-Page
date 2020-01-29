@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoad', render());
 
 
 const homeTab = document.querySelector('#home');
-const galleryTab = document.querySelector('#gallery')
+const galleryTab = document.querySelector('#gallery');
 const menuTab = document.querySelector('#menu');
 const contactTab = document.querySelector('#contact');
 
