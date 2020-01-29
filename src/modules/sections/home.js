@@ -22,7 +22,7 @@ const home = () => {
   link.classList.add('smoothScroll', 'btn', 'btn-default');
   link.innerText = 'LEARN MORE';
   link.id = '#gallery';
-  link.href = '#gallery'; 
+  link.href = '#gallery';
 
   column.appendChild(h1);
   column.appendChild(h2);
