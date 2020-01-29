@@ -11,3 +11,39 @@ rootContainer.append(
   sections.getSection5(),
   sections.getSection6(),
 );
+
+const render = () => {
+  sections.getSection1();
+  sections.getSection2();
+};
+
+window.addEventListener('DOMContentLoad', render());
+
+
+const homeTab = document.querySelector('#home');
+const galleryTab = document.querySelector('#gallery')
+const menuTab = document.querySelector('#menu');
+const contactTab = document.querySelector('#contact');
+const logo = document.querySelector('#logo');
+
+const changeMenu = (e) => {
+  if (e.srcElement === homeTab || e.srcElement === logo) {
+    content.innerHTML = '';
+    sections.getSection2();
+  } else if (e.srcElement === galleryTab) {
+    content.innerHTML = '';
+    sections.getSection3();
+  } else if (e.srcElement === menuTab) {
+    content.innerHTML = '';
+    sections.getSection4();
+  } else {
+    content.innerHTML = '';
+    sections.getSection5();
+  } 
+};
+
+homeTab.addEventListener('click', changeMenu);
+galleryTab.addEventListener('click', changeMenu);
+menuTab.addEventListener('click', changeMenu);
+contactTab.addEventListener('click', changeMenu);
+logo.addEventListener('click', changeMenu);
