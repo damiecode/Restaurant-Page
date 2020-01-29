@@ -2,7 +2,7 @@
 
 > ​  we are going to be using only JavaScript to generate the entire contents of a restaurant page!.
 
-![screenshot](restaurant.png )
+![screenshot](img.png )
 
 Additional description about the project and its features.
 
