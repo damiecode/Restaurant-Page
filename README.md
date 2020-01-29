@@ -32,6 +32,24 @@ Open your git bash and cd to the location you'd like to put your files the run t
 git clone https://github.com/damiecode/Restaurant-Page.git
 ```
 
+## Installation
+
+Install NPM dependecies.
+
+```bash
+npm install
+```
+
+## Dependencies
+
+```
+file-loader
+style-loader
+css-loader
+webpack
+webpack-cli
+```
+
 ## Author
 
 👤 **Damilola Ale**
