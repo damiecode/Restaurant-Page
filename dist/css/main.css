@@ -5,7 +5,7 @@ body {
   position: relative;
 }
 
-a, h1, h2, h3, h4, span {
+a, h1, h2, h3, h4, h5, span {
   color: #fff;
 }
 
@@ -133,9 +133,6 @@ hr {
 #menu .col-md-6 {
   padding-bottom: 18px;
 }
-#menu span {
-  color: #5C5C5C;
-}
 
 /* gallery section */
 #gallery {
@@ -261,7 +258,7 @@ footer .fa {
 
 /* copyright section */
 #copyright {
-  background: #343434;
+  background: #000;
   color: #ffffff;
   padding-top: 80px;
   padding-bottom: 80px;

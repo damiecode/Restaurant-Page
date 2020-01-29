@@ -2,7 +2,7 @@
 
 > ​  we are going to be using only JavaScript to generate the entire contents of a restaurant page!.
 
-<!-- ![screenshot](TicTacToe.png ) -->
+![screenshot](restaurant.png )
 
 Additional description about the project and its features.
 
@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://rawcdn.githack.com/damiecode/Tic-Tac-Toe-Js/ae91a6112a67103254fe556cf2b11d5712f1b1b1/index.html ) -->
+<!-- [Live Demo Link](https://rawcdn.githack.com/damiecode/Restaurant-Page/feature/Restaurant-page/dist/index.html ) -->
 
 
 ## Getting Started
