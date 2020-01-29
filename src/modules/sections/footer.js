@@ -72,7 +72,7 @@ const footer = () => {
   `;
 
   follow.append(followH2, ul);
-  
+
   div.append(phoneDiv, address);
   row.append(div, availability, follow);
   container.appendChild(row);
