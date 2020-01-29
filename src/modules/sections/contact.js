@@ -47,8 +47,8 @@ const contact = () => {
 
   const inputMessage = document.createElement('textarea');
   inputMessage.classList.add('form-control');
-  inputMessage.setAttribute('type', 'text');;
-  inputMessage.id = 'message'
+  inputMessage.setAttribute('type', 'text');
+  inputMessage.id = 'message';
   inputMessage.setAttribute('placeholder', 'Message');
 
   messageDiv.appendChild(inputMessage);
@@ -77,6 +77,6 @@ const contact = () => {
   section.appendChild(container);
 
   return section;
-}
+};
 
 export default contact;
