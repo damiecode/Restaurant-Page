@@ -1,7 +1,7 @@
 const footer = () => {
   const section = document.createElement('footer');
   section.classList.add('parallax-section');
-  const container = document.createElement('div')
+  const container = document.createElement('div');
   container.classList.add('container');
   const row = document.createElement('div');
   row.classList.add('row');
@@ -10,7 +10,7 @@ const footer = () => {
   div.setAttribute('data-wow-delay', '0.6s');
   const heading = document.createElement('h2');
   heading.classList.add('heading');
-  heading.innerText = 'Contact Info.'
+  heading.innerText = 'Contact Info.';
 
   const phoneDiv = document.createElement('div');
   phoneDiv.classList.add('ph');

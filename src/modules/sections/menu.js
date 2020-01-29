@@ -1,19 +1,19 @@
 const menu = () => {
-  const section = document.createElement('section')
-  section.id = 'menu'
-  section.classList.add('parallax-section')
-  const container = document.createElement('div')
-  container.classList.add('container')
-  const row = document.createElement('div')
-  row.classList.add('row')
-  const div = document.createElement('div')
-  div.classList.add('col-md-offset-2', 'col-md-8', 'col-sm-12', 'text-center')
-  const h1 = document.createElement('h1')
-  h1.classList.add('heading')
-  h1.innerText = 'Special Menu'
-  const hr = document.createElement('hr')
-  div.appendChild(hr)
-  div.appendChild(h1)
+  const section = document.createElement('section');
+  section.id = 'menu';
+  section.classList.add('parallax-section');
+  const container = document.createElement('div');
+  container.classList.add('container');
+  const row = document.createElement('div');
+  row.classList.add('row');
+  const div = document.createElement('div');
+  div.classList.add('col-md-offset-2', 'col-md-8', 'col-sm-12', 'text-center');
+  const h1 = document.createElement('h1');
+  h1.classList.add('heading');
+  h1.innerText = 'Special Menu';
+  const hr = document.createElement('hr');
+  div.appendChild(hr);
+  div.appendChild(h1);
 
   const li = document.createElement('div');
   li.innerHTML = `
@@ -50,10 +50,10 @@ const menu = () => {
           <h5>Seafood / Rosemary / Lemon</h5>
         </div>`;
 
-  row.appendChild(div)
+  row.appendChild(div);
   row.append(li);
-  container.appendChild(row)
-  section.appendChild(container)
+  container.appendChild(row);
+  section.appendChild(container);
 
   return section;
 };

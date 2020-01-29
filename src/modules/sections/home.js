@@ -27,9 +27,9 @@ const home = () => {
   column.appendChild(h1);
   column.appendChild(h2);
   column.appendChild(link);
-  row.appendChild(column)
-  container2.appendChild(row)
-  parallax.appendChild(container2)
+  row.appendChild(column);
+  container2.appendChild(row);
+  parallax.appendChild(container2);
 
   return parallax
 };
