@@ -18,7 +18,7 @@ const footer = () => {
   ph.innerHTML = `
   <p><i class="fa fa-phone"></i> Phone</p>
             <h4>090-080-0760</h4>
-  `
+  `;
   phoneDiv.appendChild(ph);
 
   div.appendChild(phoneDiv);

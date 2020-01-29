@@ -55,6 +55,6 @@ const gallery = () => {
   section.appendChild(container);
 
   return section;
-}
+};
 
 export default gallery;
