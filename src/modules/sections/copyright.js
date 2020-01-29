@@ -12,7 +12,7 @@ const copyright = () => {
   const p = document.createElement('p');
   p.innerText = 'Copyright © Caterly Restaurant and Cafe';
 
-  div.append(h3, p)
+  div.append(h3, p);
   row.appendChild(div);
   container.appendChild(row);
   section.appendChild(container);

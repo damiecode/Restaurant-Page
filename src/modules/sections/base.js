@@ -25,14 +25,14 @@ const base = () => {
   for (let i = 0; i < 4; i += 1) {
     const a = document.createElement('a');
     const li = document.createElement('li');
-      if (i === 1) {
-        a.setAttribute('href', '#gallery');
+    if (i === 1) {
+      a.setAttribute('href', '#gallery');
     } else if (i === 2) {
-        a.setAttribute('href', '#menu');
+      a.setAttribute('href', '#menu');
     } else if (i === 3) {
-        a.setAttribute('href', '#contact');
-      } else {
-        a.setAttribute('href', '#home');
+      a.setAttribute('href', '#contact');
+    } else {
+      a.setAttribute('href', '#home');
     }
 
     a.classList.add('smoothScroll');
