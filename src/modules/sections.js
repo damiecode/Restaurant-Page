@@ -4,6 +4,7 @@ import gallery from './sections/gallery';
 import menu from './sections/menu';
 import contact from './sections/contact';
 import footer from './sections/footer';
+import copyright from './sections/copyright';
 
 const sections = (() => {
   const getSection1 = () => base();
@@ -12,6 +13,7 @@ const sections = (() => {
   const getSection4 = () => menu();
   const getSection5 = () => contact();
   const getSection6 = () => footer();
+  const getSection7 = () => copyright();
 
   return {
     getSection1,
@@ -20,6 +22,7 @@ const sections = (() => {
     getSection4,
     getSection5,
     getSection6,
+    getSection7,
   };
 })();
 

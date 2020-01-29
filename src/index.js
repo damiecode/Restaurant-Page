@@ -10,6 +10,7 @@ rootContainer.append(
   sections.getSection4(),
   sections.getSection5(),
   sections.getSection6(),
+  sections.getSection7(),
 );
 
 const render = () => {
@@ -24,10 +25,9 @@ const homeTab = document.querySelector('#home');
 const galleryTab = document.querySelector('#gallery')
 const menuTab = document.querySelector('#menu');
 const contactTab = document.querySelector('#contact');
-const logo = document.querySelector('#logo');
 
 const changeMenu = (e) => {
-  if (e.srcElement === homeTab || e.srcElement === logo) {
+  if (e.srcElement === homeTab) {
     content.innerHTML = '';
     sections.getSection2();
   } else if (e.srcElement === galleryTab) {
@@ -36,14 +36,13 @@ const changeMenu = (e) => {
   } else if (e.srcElement === menuTab) {
     content.innerHTML = '';
     sections.getSection4();
-  } else {
+  } else if (e.srcElement === contactTab){
     content.innerHTML = '';
     sections.getSection5();
-  } 
+  }
 };
 
 homeTab.addEventListener('click', changeMenu);
 galleryTab.addEventListener('click', changeMenu);
 menuTab.addEventListener('click', changeMenu);
 contactTab.addEventListener('click', changeMenu);
-logo.addEventListener('click', changeMenu);

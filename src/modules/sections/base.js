@@ -5,27 +5,19 @@ const base = () => {
   container.classList.add('container');
   const navbarHeader = document.createElement('div');
   navbarHeader.classList.add('navbar-header');
-  const button = document.createElement('button');
-  button.classList.add('navbar-toggle');
-  button.setAttribute('data-toggle', 'collapse');
-  // $('[data-toggle="collapse"]').collapse()
-  button.dataset.target = '.navbar-collapse';
-  const brand = document.createElement('a');
-  brand.setAttribute('href', '#logo');
-  brand.classList.add('navbar-brand');
-  brand.innerText = 'CATERLY';
-
+  navbarHeader.innerHTML = `
+    <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">CATERLY</a>
+  `;
   const navDiv = document.createElement('div');
   navDiv.classList.add('collapse', 'navbar-collapse');
+  navDiv.id = 'navbar-collapse'
   const list = document.createElement('ul');
   list.classList.add('nav', 'navbar-nav', 'navbar-right');
-
-  const toggle = ['', '', ''];
-  toggle.forEach(() => {
-    const span = document.createElement('span');
-    span.classList.add('icon', 'icon-bar');
-    button.appendChild(span);
-  });
 
   const navArray = ['HOME', 'FOOD GALLERY', 'SPECIAL MENU', 'CONTACT'];
   const anchorArray = [];
@@ -48,10 +40,6 @@ const base = () => {
     li.appendChild(a);
     anchorArray.push(li);
   }
-
-  navbarHeader.appendChild(button);
-
-  navbarHeader.appendChild(brand);
 
   container.appendChild(navbarHeader);
 
