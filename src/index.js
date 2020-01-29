@@ -2,6 +2,7 @@ import '../dist/css/main.css';
 import sections from './modules/sections';
 
 const rootContainer = document.getElementById('content');
+const content = document.querySelector('#content');
 
 rootContainer.append(
   sections.getSection1(),
@@ -36,7 +37,7 @@ const changeMenu = (e) => {
   } else if (e.srcElement === menuTab) {
     content.innerHTML = '';
     sections.getSection4();
-  } else if (e.srcElement === contactTab){
+  } else if (e.srcElement === contactTab) {
     content.innerHTML = '';
     sections.getSection5();
   }

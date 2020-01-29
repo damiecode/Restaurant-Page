@@ -6,16 +6,16 @@ const base = () => {
   const navbarHeader = document.createElement('div');
   navbarHeader.classList.add('navbar-header');
   navbarHeader.innerHTML = `
-    <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a href="#" class="navbar-brand">CATERLY</a>
+  <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+      <span class="icon icon-bar"></span>
+      <span class="icon icon-bar"></span>
+      <span class="icon icon-bar"></span>
+    </button>
+    <a href="#" class="navbar-brand">CATERLY</a>
   `;
   const navDiv = document.createElement('div');
   navDiv.classList.add('collapse', 'navbar-collapse');
-  navDiv.id = 'navbar-collapse'
+  navDiv.id = 'navbar-collapse';
   const list = document.createElement('ul');
   list.classList.add('nav', 'navbar-nav', 'navbar-right');
 
