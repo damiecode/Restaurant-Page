@@ -25,7 +25,7 @@ const gallery = () => {
         </div>
         <a href="images/gallery-img2.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img2.jpg" alt="gallery img"></a>
         <div>
-          <h3>Lemon-Rosemary Beans</h3>
+          <h3>Lemon-Rosemary Vegetables</h3>
           <span>Tomato / Rosemary / Lemon</span>
         </div>
       </div>

@@ -1,6 +1,6 @@
 body {
   background: #000;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'monospace', sans-serif;
   font-weight: 400;
   position: relative;
 }
@@ -107,22 +107,6 @@ hr {
   color: #202020;
 }
 
-/* team section */
-#team {
-  text-align: center;
-}
-#team h3 {
-  font-size: 18px;
-  line-height: 4px;
-}
-#team h4 {
-  color: #5C5C5C;
-  padding-top: 24px;
-}
-#team .col-md-4 {
- padding-top: 42px;
-}
-
 /* menu section */
 #menu h4 {
 	line-height: 1.5;
@@ -153,7 +137,7 @@ hr {
 }
 #gallery h3 {
   font-size: 18px;
-  line-height: 8px;
+  line-height: 25px;
 }
 
 /* contact section */
@@ -195,7 +179,7 @@ hr {
 
 /* footer section */
 footer {
-  background: url('../images/footer-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/footer1.jpeg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;

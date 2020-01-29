@@ -16,7 +16,7 @@ const home = () => {
   h1.innerText = 'CATERLY RESTAURANT';
 
   const h2 = document.createElement('h2');
-  h2.innerText = 'BEST & UNIQUE CUISINE';
+  h2.innerText = 'FRENCH CUISINE AT ITS BEST';
 
   const link = document.createElement('a');
   link.classList.add('smoothScroll', 'btn', 'btn-default');
