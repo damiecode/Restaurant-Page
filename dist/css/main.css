@@ -1,8 +1,12 @@
 body {
-  background: #ffffff;
+  background: #000;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   position: relative;
+}
+
+a, h1, h2, h3, h4, span {
+  color: #fff;
 }
 
 .heading {
@@ -16,7 +20,7 @@ body {
 }
 
 p {
-  color: #848484;
+  color: #fff;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.4px;
@@ -24,7 +28,7 @@ p {
 }
 
 hr {
-	border-top: 2px solid #828282;
+	border-top: 2px solid #fff;
 	width: 120px;
 }
 
@@ -33,7 +37,7 @@ hr {
 	padding-bottom: 100px;
 }
 #menu, #contact {
-  background: #f0f0f0;
+  background: #000;
 }
 
 .parallax-section {
@@ -43,7 +47,7 @@ hr {
 
 /* start navigation */
 .navbar-default {
-  background: #ffffff;
+  background: #000;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
   border: none;
   margin-bottom: 0;
@@ -52,7 +56,7 @@ hr {
   line-height: 28px;
 }
 .navbar-default .navbar-brand  {
-  color: #5C5C5C;
+  color: #fff;
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -60,11 +64,12 @@ hr {
 .navbar-default .navbar-nav li a {
   font-size: 12px;
   letter-spacing: 1px;
+  color: #fff;
 }
 
 /* home section */
 #home {
-  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/blk-restaurant.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -164,6 +169,7 @@ hr {
 }
 #contact .form-control {
   background: #ffffff;
+  color: #fff;
   border: none;
   border-radius: 0;
   box-shadow: none;
