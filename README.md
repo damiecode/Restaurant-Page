@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://rawcdn.githack.com/damiecode/Restaurant-Page/feature/Restaurant-page/dist/index.html ) -->
+[Live Demo Link](https://rawcdn.githack.com/damiecode/Restaurant-Page/feature/Restaurant-page/dist/index.html )
 
 
 ## Getting Started
