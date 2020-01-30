@@ -35,7 +35,6 @@ const changeMenu = (e) => {
     content.innerHTML = '';
     sections.getSection3();
   } else if (e.srcElement === menuTab) {
-    content.innerHTML = '';
     sections.getSection4();
   } else if (e.srcElement === contactTab) {
     content.innerHTML = '';
@@ -43,7 +42,6 @@ const changeMenu = (e) => {
   }
 };
 
-homeTab.addEventListener('click', changeMenu);
 galleryTab.addEventListener('click', changeMenu);
 menuTab.addEventListener('click', changeMenu);
 contactTab.addEventListener('click', changeMenu);
