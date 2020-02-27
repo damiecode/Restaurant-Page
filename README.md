@@ -1,6 +1,6 @@
 # Restaurant-Page - [Microverse - JavaScript Course]
 
-> ​  we are going to be using only JavaScript to generate the entire contents of a restaurant page!.
+> ​  We are going to be using only JavaScript to generate the entire content of a restaurant page!.
 
 ![screenshot](img.png )
 
