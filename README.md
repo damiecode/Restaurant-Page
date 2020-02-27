@@ -54,8 +54,9 @@ webpack-cli
 
 👤 **Damilola Ale**
 
+- Email: __codenlyn@gmail.com__
 - Github: [@damiecode](https://github.com/damiecode)
-- linkedin: [Damilola Ale](https://linkedin.com/in/damiecode/)
+- Linkedin: [Damilola Ale](https://linkedin.com/in/damiecode/)
 
 ## Show your support
 
