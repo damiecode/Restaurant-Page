@@ -4,8 +4,6 @@
 
 ![screenshot](img.png )
 
-Additional description about the project and its features.
-
 ## Link to Project
 [OdinProject](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
